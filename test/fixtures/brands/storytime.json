@@ -1,0 +1,17 @@
+{
+  "name": "Story Time",
+  "timezone": "Europe/Berlin",
+  "site": null,
+  "utm": false,
+  "aiDisclosure": "AI-assisted animation.",
+  "approvedDirs": ["/tmp/storytime-approved"],
+  "defaults": { "platforms": ["facebook", "instagram", "youtube", "pinterest"] },
+  "facebook": { "pageId": "300", "pageName": "Story Time", "videoAs": "reel" },
+  "instagram": { "username": "story.time", "userId": "400" },
+  "youtube": { "channelId": "UC_story", "madeForKids": true, "categoryId": "27", "language": "es" },
+  "pinterest": {
+    "username": "storytime",
+    "defaultBoard": "stories",
+    "boards": { "stories": "Story Time | Bedtime Stories", "animals": "Animal Tales" }
+  }
+}

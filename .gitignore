@@ -1,0 +1,31 @@
+# dependencies
+node_modules/
+
+# results written next to post files
+*.result.json
+
+# secrets and local state (the tool keeps these in ~/.config/social-publisher, never here)
+.env
+.env.*
+apps.json
+tokens.json
+credentials*.json
+*.token
+*.pem
+*.key
+queue.json
+queue.lock
+history.jsonl
+runner.log
+.wrangler/
+.dev.vars
+
+# local data
+data/
+tmp/
+*.log
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/

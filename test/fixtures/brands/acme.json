@@ -1,0 +1,17 @@
+{
+  "name": "Acme Garden",
+  "timezone": "Europe/Berlin",
+  "site": "https://acme.example",
+  "utm": { "medium": "social", "campaign": "post" },
+  "aiDisclosure": "Visuals created with AI.",
+  "approvedDirs": ["/tmp/acme-approved"],
+  "defaults": { "platforms": ["facebook", "instagram", "youtube"] },
+  "facebook": { "pageId": "100", "pageName": "Acme Garden", "videoAs": "reel" },
+  "instagram": { "username": "acme.garden", "userId": "200" },
+  "youtube": {
+    "channelId": "UC_acme",
+    "madeForKids": false,
+    "categoryId": "22",
+    "descriptionFooter": "🌐 Website: https://acme.example/yt/{videoId}"
+  }
+}

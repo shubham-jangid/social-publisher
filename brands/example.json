@@ -1,0 +1,55 @@
+{
+  "name": "Example Brand",
+  "timezone": "Europe/London",
+  "site": "https://example.com",
+  "utm": {
+    "medium": "social",
+    "campaign": "post"
+  },
+  "aiDisclosure": "Made with help from AI.",
+  "approvedDirs": [
+    "~/social/example-brand/approved"
+  ],
+  "defaults": {
+    "platforms": ["facebook", "instagram", "youtube"]
+  },
+  "facebook": {
+    "pageId": "YOUR_FACEBOOK_PAGE_ID",
+    "pageName": "Example Brand",
+    "videoAs": "reel"
+  },
+  "instagram": {
+    "username": "example.brand",
+    "userId": "YOUR_INSTAGRAM_USER_ID"
+  },
+  "youtube": {
+    "default": "main",
+    "madeForKids": false,
+    "categoryId": "22",
+    "descriptionFooter": "Website: https://example.com/?v={videoId}",
+    "accounts": {
+      "main": {
+        "handle": "@examplebrand",
+        "channelId": "YOUR_YOUTUBE_CHANNEL_ID",
+        "loginHint": "you@example.com"
+      },
+      "second": {
+        "handle": "@examplebrand-clips",
+        "channelId": "YOUR_SECOND_YOUTUBE_CHANNEL_ID",
+        "loginHint": "you@example.com"
+      }
+    }
+  },
+  "pinterest": {
+    "username": "examplebrand",
+    "loginHint": "you@example.com",
+    "defaultBoard": "ideas",
+    "boards": {
+      "ideas": "Example Brand Ideas"
+    }
+  },
+  "linkedin": {
+    "app": "default",
+    "author": "urn:li:organization:YOUR_ORGANIZATION_ID"
+  }
+}

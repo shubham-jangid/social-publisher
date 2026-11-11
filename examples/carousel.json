@@ -1,0 +1,14 @@
+{
+  "brand": "example",
+  "id": "example-carousel",
+  "media": ["../path/to/1.jpg", "../path/to/2.jpg", "../path/to/3.jpg"],
+  "captionFile": "../path/to/caption.txt",
+  "link": "https://example.com/",
+  "at": "2026-11-10 19:00",
+  "platforms": {
+    "facebook": {},
+    "instagram": {},
+    "pinterest": { "board": "ideas", "title": "Pin title, up to 100 characters" },
+    "linkedin": { "caption": "A shorter, plainer caption for LinkedIn. More at {link}" }
+  }
+}

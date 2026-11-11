@@ -1,0 +1,11 @@
+{
+  "name": "social-publisher",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Post one approved video or set of images to Facebook, Instagram, YouTube, Pinterest and LinkedIn through their official APIs, from a CLI, an MCP server or a Cloudflare Worker scheduler.",
+  "license": "MIT",
+  "bin": { "social": "./bin/social.mjs" },
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.mjs" }
+}

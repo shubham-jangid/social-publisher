@@ -1,0 +1,15 @@
+{
+  "brand": "example",
+  "id": "example-reel",
+  "media": "../path/to/reel.mp4",
+  "cover": "../path/to/cover.jpg",
+  "caption": "Caption for Facebook and Instagram.\n\n#hashtag",
+  "title": "YouTube and Facebook title",
+  "ai": false,
+  "at": "2026-11-12 18:30",
+  "platforms": {
+    "facebook": {},
+    "instagram": {},
+    "youtube": { "account": "second", "tags": ["tag one", "tag two"] }
+  }
+}

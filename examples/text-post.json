@@ -1,0 +1,7 @@
+{
+  "brand": "example",
+  "id": "example-text",
+  "caption": "A text-only update. Read more: {link}",
+  "link": "https://example.com/blog/",
+  "platforms": { "facebook": {}, "linkedin": {} }
+}
